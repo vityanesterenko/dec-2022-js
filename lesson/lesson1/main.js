@@ -36,7 +36,7 @@ let secondName = 'Anatoliyovych';
 let person = middleName + ' ' + firstName + ' ' + secondName ;
 console.log(person)
 
-//- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 //   let a = 100; let b = '100'; let c = true;
 let z = 100;
 console.log(typeof z)
@@ -55,7 +55,13 @@ console.log(name)
 let second = prompt("Як вас по батькові")
 console.log(second)
 let age = prompt("How old are you")
-console.log(age)
+console.log(+age)
+// console.log(age)
+console.log(typeof +age)
+
+
+
+
 
 
 
