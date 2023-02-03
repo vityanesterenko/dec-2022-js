@@ -56,8 +56,10 @@ let second = prompt("Як вас по батькові")
 console.log(second)
 let age = prompt("How old are you")
 console.log(+age)
-// console.log(age)
 console.log(typeof +age)
+
+
+
 
 
 
