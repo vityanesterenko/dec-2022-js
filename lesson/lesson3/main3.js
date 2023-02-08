@@ -153,6 +153,11 @@ let users = [
 
 for (let j = 0; j < users.length; j++) {
     const user = users[j];
-
-    document.write(`<h3>${user.name} ${user.age} ${user.status}</h3>`)
+    if (user.status){
+    document.write(`<h3>${user.name} ${user.age} ${user.status}</h3>`)}
+    if (!user.status){
+        document.write(`${user.name} ${user.age} ${user.status}`)}
+    if (user>30){
+        document.write(`${user.name} ${user.age} ${user.status}`)
+    }
 }
